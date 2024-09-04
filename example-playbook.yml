@@ -1,0 +1,22 @@
+---
+- name: Example playbook for the modules
+  hosts: localhost
+  become: false
+  gather_facts: false
+
+  tasks:
+    - name: Accept the salt keys
+      suma_accept_salt:
+        host: https://suma.testing.lan/rhn/manager/api
+        username: elgeffo
+        password: testing123
+        ssl_accept: False
+
+    - name: Add a child  channel to a host
+      suma_add_child_channel:
+        host: https://suma.testing.lan/rhn/manager/api
+        username: elgeffo
+        password: testing123
+        hostname: testhost
+        child_channel: zabbix7.0
+        ssl_accept: False
