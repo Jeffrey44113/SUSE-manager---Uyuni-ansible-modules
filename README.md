@@ -11,4 +11,4 @@ An example of method 1 is also in this repo.
 
 ## Side note
 
-The modules are made by me so I can use suse manager/uyuni better in my day to day life. I am no programmer so 100% correct or efficient it will not be. But I thought let me share it with the wider wold so maybe somebody else has some use to it.
+The modules are made by me so I can use suse manager/uyuni better in my day to day life. I am no programmer so 100% correct or efficient it will not be. But I thought let me share it with the wider world so maybe somebody else has some use to it.
