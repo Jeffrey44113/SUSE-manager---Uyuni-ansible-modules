@@ -30,7 +30,7 @@ EXAMPLES = '''
     username: elgeffo
     password: testing123
     hostname: testhost
-    child_channel: zabbix7.0
+    child_channel: zabbix7.0 (This must be the channels label)
     ssl_accept: False (if set to True then make sure that you have the internal certificate imported)
 '''
 
